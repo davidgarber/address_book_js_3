@@ -1,5 +1,5 @@
 describe('Contact', function() {
-  it("creates a new contact with the given name specifications", function() {
+  it("creates a new contact with the given specifications", function() {
     var testContact = new Contact("Rita","Moreno","West Side");
     expect(testContact.firstName).to.equal("Rita");
     expect(testContact.lastName).to.equal("Moreno");
