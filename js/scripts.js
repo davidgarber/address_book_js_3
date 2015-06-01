@@ -69,10 +69,11 @@ $("form#new-contact").submit(function(event) {
       });
     });
 
-    $("input.new-first-name").val("");
-    $("input.new-last-name").val("");
+    $("input#new-first-name").val("");
+    $("input#new-last-name").val("");
     $("input.new-street").val("");
     $("input.new-city").val("");
     $("input.new-state").val("");
+    $("div.new-address").not(':first').remove();
   });
 });
